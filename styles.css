@@ -213,20 +213,6 @@ a:hover { color: var(--cyan); }
   flex-shrink: 0;
 }
 
-.ticker-label {
-  background: var(--red);
-  color: #ffffff;
-  font-family: var(--mono);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 2.5px;
-  padding: 0 18px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  text-transform: uppercase;
-}
 
 .ticker-track {
   display: inline-flex;
