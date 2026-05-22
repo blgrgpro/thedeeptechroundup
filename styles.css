@@ -138,9 +138,9 @@ a:hover { color: var(--cyan); }
   border: none;
   color: var(--dark-muted);
   font-family: var(--font);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
-  padding: 6px 20px;
+  padding: 8px 20px;
   cursor: pointer;
   transition: background 0.12s, color 0.12s;
   text-align: left;
@@ -228,7 +228,7 @@ a:hover { color: var(--cyan); }
 .ticker-track {
   display: inline-flex;
   animation: ticker-scroll 95s linear infinite;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   color: #8898bb;
   letter-spacing: 0.1px;
@@ -275,9 +275,9 @@ a:hover { color: var(--cyan); }
 .content { padding: 32px 40px 64px; }
 
 .section-label {
-  font-family: var(--mono);
-  font-size: 9px; font-weight: 700;
-  letter-spacing: 3px;
+  font-family: var(--font);
+  font-size: 13px; font-weight: 800;
+  letter-spacing: 2px;
   color: var(--red);
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -365,37 +365,17 @@ a:hover { color: var(--cyan); }
    =========================== */
 .source-badge {
   font-family: var(--mono);
-  font-size: 8px; font-weight: 600;
+  font-size: 9px; font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  padding: 2px 6px;
+  padding: 3px 7px;
   border-radius: 3px;
   flex-shrink: 0;
   white-space: nowrap;
+  background: #ffffff;
+  color: var(--muted-2);
+  border: 1px solid var(--border-2);
 }
-
-.source-badge.sifted         { background: #1a1e5e; color: #8899ff; }
-.source-badge.techeu         { background: #001d44; color: #55aaff; }
-.source-badge.tfn            { background: #2a1a00; color: #ffaa44; }
-.source-badge.tnw            { background: #002210; color: #44ee77; }
-.source-badge.siliconcanals  { background: #071d33; color: #55aaee; }
-.source-badge.eic            { background: #001e44; color: #44aaff; }
-.source-badge.sciencebusiness{ background: #2a1e00; color: #ddaa33; }
-.source-badge.eustartups     { background: #1e0033; color: #cc88ff; }
-.source-badge.hellotomorrow  { background: #001e1a; color: #33bbaa; }
-.source-badge.therecursive   { background: #1e0000; color: #ff7777; }
-.source-badge.techcrunch     { background: #221100; color: #ff8833; }
-.source-badge.quantuminsider { background: #001d2a; color: #00ccff; }
-.source-badge.spaceflight    { background: #0e0a22; color: #9988ff; }
-.source-badge.vestbee        { background: #001e1a; color: #44ddbb; }
-.source-badge.maddyness      { background: #220011; color: #ff77bb; }
-.source-badge.siliconrepublic{ background: #002211; color: #33dd88; }
-.source-badge.dealroom       { background: #001133; color: #5577ff; }
-.source-badge.wireduk        { background: #111820; color: #bbccdd; }
-.source-badge.arcticstartup  { background: #051e2a; color: #66ccff; }
-.source-badge.labiotech      { background: #220011; color: #ff7799; }
-.source-badge.esa            { background: #000e33; color: #5588ff; }
-.source-badge.other          { background: #101a28; color: #7799bb; }
 
 .sector-badge {
   font-family: var(--mono);
