@@ -134,20 +134,23 @@ a:hover { color: var(--cyan); }
   align-items: center;
   gap: 9px;
   width: 100%;
-  background: transparent;
+  background: rgba(255,255,255,0.92);
   border: none;
-  color: var(--dark-muted);
+  border-radius: 4px;
+  color: #0c1a28;
   font-family: var(--font);
   font-size: 13px;
   font-weight: 500;
-  padding: 8px 20px;
+  padding: 7px 14px;
+  margin: 1px 10px;
+  width: calc(100% - 20px);
   cursor: pointer;
   transition: background 0.12s, color 0.12s;
   text-align: left;
   white-space: nowrap;
 }
-.filter-btn:hover { background: rgba(255,255,255,0.05); color: #dde4f5; }
-.filter-btn.active { background: rgba(0,212,255,0.1); color: var(--bright-cyan); }
+.filter-btn:hover { background: #ffffff; color: #0c1a28; }
+.filter-btn.active { background: #ffffff; color: var(--red); font-weight: 700; }
 
 .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; opacity: 0.75; }
 .dot.all            { background: var(--bright-cyan); opacity: 1; }
@@ -197,11 +200,11 @@ a:hover { color: var(--cyan); }
 }
 
 /* ===========================
-   TICKER — dark, taller
+   TICKER — white, taller
    =========================== */
 .ticker-wrap {
-  background: var(--dark-bg-2);
-  border-bottom: 2px solid var(--dark-border);
+  background: #ffffff;
+  border-bottom: 2px solid var(--border);
   display: flex;
   align-items: center;
   height: 64px;
@@ -230,7 +233,7 @@ a:hover { color: var(--cyan); }
   animation: ticker-scroll 95s linear infinite;
   font-size: 15px;
   font-weight: 500;
-  color: #8898bb;
+  color: var(--text);
   letter-spacing: 0.1px;
   padding-left: 28px;
 }
@@ -248,7 +251,7 @@ a:hover { color: var(--cyan); }
   transform: translateY(-50%);
   height: 18px;
   width: 1px;
-  background: rgba(136, 152, 187, 0.35);
+  background: rgba(12, 26, 40, 0.2);
 }
 
 /* ===========================
