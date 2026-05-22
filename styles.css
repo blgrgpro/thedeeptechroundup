@@ -235,7 +235,21 @@ a:hover { color: var(--cyan); }
   padding-left: 28px;
 }
 @keyframes ticker-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-.ticker-track span { white-space: nowrap; }
+.ticker-track span {
+  white-space: nowrap;
+  padding-right: 40px;
+  position: relative;
+}
+.ticker-track span::after {
+  content: '';
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 18px;
+  width: 1px;
+  background: rgba(136, 152, 187, 0.35);
+}
 
 /* ===========================
    CONTENT HEADER
