@@ -308,16 +308,32 @@ a:hover { color: var(--cyan); }
   border: 1px solid var(--border);
   border-top: 4px solid var(--red);
   border-radius: var(--radius-lg);
-  padding: 22px 24px 20px;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  overflow: hidden;
   box-shadow: 0 2px 8px rgba(10,30,60,0.06);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .featured-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 24px rgba(10,30,60,0.12);
+}
+
+.feat-img {
+  width: 100%;
+  height: 185px;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+}
+
+.feat-body {
+  padding: 18px 22px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
 }
 
 .feat-meta { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
