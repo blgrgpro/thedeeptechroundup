@@ -293,6 +293,76 @@ a:hover { color: var(--cyan); }
 .feed-count { color: var(--muted); font-weight: 400; letter-spacing: 1px; }
 
 /* ===========================
+   WEEKLY DIGEST
+   =========================== */
+.digest-section { margin-bottom: 48px; }
+
+.digest-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px 32px;
+  max-width: 780px;
+}
+
+.digest-intro {
+  font-size: 14px;
+  color: var(--muted-2);
+  line-height: 1.7;
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+.digest-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 22px;
+  padding: 0;
+}
+
+.digest-list li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.digest-emoji {
+  font-size: 17px;
+  flex-shrink: 0;
+  margin-top: 1px;
+  width: 24px;
+  text-align: center;
+}
+
+.digest-list strong {
+  font-weight: 700;
+  color: var(--cyan);
+}
+
+.digest-cta {
+  font-size: 13px;
+  color: var(--muted-2);
+  margin-bottom: 12px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.digest-cta strong { color: var(--text); }
+
+.digest-tags {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--cyan);
+  letter-spacing: 0.3px;
+}
+
+/* ===========================
    FEATURED GRID
    =========================== */
 .featured-section { margin-bottom: 48px; }
